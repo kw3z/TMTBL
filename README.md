@@ -132,30 +132,6 @@ TMTBL is a smart, all-in-one productivity application designed to help students 
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Before running the project locally, make sure you have:
-
-* A modern web browser
-
----
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/tmtbl.git
-
-# Navigate into the project directory
-cd tmtbl
-```
-
-Open `index.html` in your browser or run the project using a local development server.
-
----
-
 ## 📂 Project Structure
 
 ```plaintext
