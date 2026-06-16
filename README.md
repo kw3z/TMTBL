@@ -120,8 +120,6 @@ TMTBL is a smart, all-in-one productivity application designed to help students 
 
 ## 📸 Screenshots
 
-> Replace these placeholders with actual screenshots of your application.
-
 ![Dashboard](https://i.postimg.cc/GtwbDGQ6/image.png)
 
 ![Schedule](https://i.postimg.cc/D0TK0FfZ/image.png)
