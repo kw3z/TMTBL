@@ -1,120 +1,87 @@
-# TMTBL
+# 📅 TMTBL (v3.1) — Your All-in-One Planner
 
-TMTBL is a smart, all-in-one productivity application designed to help students and everyday users manage tasks, school schedules, homework, and daily routines efficiently. Built with a focus on usability, customization, and productivity, TMTBL combines task management, calendar scheduling, smart notifications, and personalization into a single seamless experience.
+![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20Windows-blueviolet?logo=googlechrome)
+![Built With](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JS-orange?logo=javascript)
+![Firebase](https://img.shields.io/badge/backend-Firebase-yellow?logo=firebase)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+> **TMTBL** is a smart, all-in-one productivity app for students — combining task management, school scheduling, smart notifications, and personal customization into a single seamless experience.
 
 ---
 
-## ✨ Features
+## Changelogs for v3.1
+1. [🐞] Fixed a Bug where the `Weekly Day Off` in the Settings tab did not match with the Calendar.
+2. [🆕] Added a button in Schedule tab which allows copy pasting schedules into other day types.
+
+---
+
+## ✨ What Makes TMTBL Different?
+
+Most planners make you choose between a calendar, a to-do list, or a schedule. TMTBL gives you **all three, unified** — with school-aware day types, activity-level notifications, and a calendar you can actually navigate fast.
+
+---
+
+## 🚀 Features
 
 ### 📋 Task & To-Do Management
 
-* **Intelligent Sorting**
-
-  * Separate views for **Active** and **Overdue** tasks to keep priorities clear and manageable.
-
-* **Global Task Support**
-
-  * Create and manage tasks that are not tied to a specific calendar date using Global Todos.
-
-* **Progress Tracking**
-
-  * Visual progress bars display real-time completion status directly in the To-Do tab.
-
-* **Task Categorization**
-
-  * Organize tasks using customizable dropdown categories.
-
-* **Task State Management**
-
-  * Mark tasks as complete or incomplete and filter them dynamically.
+| Feature | Description |
+|---|---|
+| **Intelligent Sorting** | Separate *Active* and *Overdue* views keep priorities obvious |
+| **Global Todos** | Tasks that aren't tied to any specific date live here |
+| **Progress Bars** | Real-time visual completion status on the To-Do tab |
+| **Task Categories** | Customizable dropdown categories to organize by subject or project |
+| **Dynamic Filtering** | Toggle between active, overdue, and completed tasks on the fly |
 
 ---
 
 ### 📅 Scheduling & Calendar
 
-* **Flexible Day Types**
-
-  * Create customized schedules for different day types such as School Days and Weekends.
-
-* **Interactive Calendar View**
-
-  * Track and visualize tasks and schedules across days and months.
-
-* **Year-at-a-Glance**
-
-  * View an entire year's schedule with visual time blocks for school days, weekends, and more.
-
-* **Bulk Operations**
-
-  * Apply settings across date ranges using:
-
-    * **Set Range**
-    * **Apply to Selected**
+- 🗓 **Flexible Day Types** — Define separate schedules for School Days, Weekends, Holidays, or any custom type you create
+- 🔭 **Year-at-a-Glance View** — See an entire year's schedule with color-coded time blocks
+- 📌 **Pinned Dates** — Highlight important dates with personal notes
+- ⚡ **Bulk Operations** — Apply day types or settings across date ranges using *Set Range* or *Apply to Selected*
+- 📆 **Interactive Calendar** — Tap any day to see its full schedule and tasks
 
 ---
 
-### 🔔 Smart Notifications
+~~### 🔔 Smart Notifications~~ (broken)
 
-* **Homework Reminders**
-
-  * Receive Daily Tasks notifications to stay on top of assignments.
-
-* **Activity Alerts**
-
-  * Automated reminders for scheduled activities with:
-
-    * Start time
-    * End time
-    * Duration information
-
-* **Browser Notification Support**
-
-  * Native browser notifications work even when the app is running in another tab.
+- 📚 **Homework Reminders** — Daily task alerts so nothing slips through 
+- ⏱ **Activity Transition Alerts** — Automatic notifications when an activity starts or ends, with duration info included
+- 🌐 **Browser Notification Support** — Works even when TMTBL is running in a background tab
 
 ---
 
-### 🎨 Customization & User Experience
+### 🎨 Customization & UX
 
-* **Custom Themes**
-
-  * Choose from multiple accent colors to personalize the interface.
-
-* **Audio Feedback**
-
-  * Integrated sound effects for:
-
-    * Tab switching
-    * Saving changes
-    * Error handling
-
-* **Centralized Settings Hub**
-
-  * Manage notifications, schedules, preferences, and day types in one place.
-
-* **Profile Sync**
-
-  * Sync Profile functionality helps maintain and manage user data across sessions.
+- 🎨 **Custom Accent Themes** — Pick your accent color to make the app feel like yours
+- 🔊 **Audio Feedback** — Subtle sound effects for tab switches, saves, and errors
+- ⚙️ **Centralized Settings** — Notifications, schedule templates, day types, and preferences all in one place
+- ☁️ **Profile Sync** — Your data follows you across sessions
 
 ---
 
-### ⚙️ Technical Capabilities
+## 🛠 Tech Stack
 
-* **Persistent State Management**
-
-  * Data is stored persistently using the application's internal state system.
-
-* **Responsive User Interface**
-
-  * Carefully optimized layouts, dropdown sizing, and spacing for better usability and clarity.
+| Layer | Technology |
+|---|---|
+| **Frontend** | HTML5, CSS3, Vanilla JavaScript |
+| **Backend / Sync** | Firebase (Firestore + Auth) |
+| **Notifications** | Web Notifications API |
 
 ---
 
-## 🛠️ Built With
+## 📂 Project Structure
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Firebase**
+```
+TMTBL/
+│
+├── index.html      ← App entry point
+├── style.css       ← All styling and themes
+└── script.js       ← App logic, Firebase sync, notifications
+```
 
 ---
 
@@ -132,22 +99,21 @@ TMTBL is a smart, all-in-one productivity application designed to help students 
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-TMTBL/
-│
-├── index.html
-├── style.css
-└── script.js
-```
-
----
-
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-
-Feel free to use, modify, and distribute this software in accordance with the license terms.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.  
+Feel free to use, modify, and distribute in accordance with the license terms.
 
 ---
+
+## 💬 Feedback & Contributions
+
+Found a bug? [Open an issue](../../issues)  
+Have an idea? [Create a feature request](../../issues/new)  
+Want to contribute? Pull requests are always welcome ❤️
+
+---
+
+<div align="center">
+  <sub>Built with 💙 by <a href="https://github.com/YourUsername">kw3z</a></sub>
+</div>
