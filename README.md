@@ -15,6 +15,9 @@
 1. [🐞] Fixed a Bug where the `Weekly Day Off` in the Settings tab did not match with the Calendar.
 2. [🆕] Added a button in Schedule tab which allows copy pasting schedules into other day types.
 
+## Changelogs for v3.2
+1. [🆕] Added a LastLoggedIn statistic to Firebase RTDB for users with a linked Key.
+
 ---
 
 ## ✨ What Makes TMTBL Different?
