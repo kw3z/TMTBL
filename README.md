@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-> **TMTBL** is a smart, all-in-one productivity app for students — combining task management, school scheduling, smart notifications, and personal customization into a single seamless experience.
+> **[TMTBL](https://tmtbl.vercel.app)** is a smart, all-in-one productivity app for students — combining task management, school scheduling, smart notifications, and personal customization into a single seamless experience.
 
 ---
 
@@ -122,5 +122,5 @@ Want to contribute? Pull requests are always welcome ❤️
 ---
 
 <div align="center">
-  <sub>Built with 💙 by <a href="https://github.com/YourUsername">kw3z</a></sub>
+  <sub>Built with 💙 by <a href="https://github.com/YourUsername">kw3z</a> • Release v3.2</sub>
 </div>
