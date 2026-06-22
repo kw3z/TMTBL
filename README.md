@@ -84,7 +84,10 @@ TMTBL/
 │
 ├── index.html      ← App entry point
 ├── style.css       ← All styling and themes
-└── script.js       ← App logic, Firebase sync, notifications
+├── script.js       ← App logic, Firebase sync, notifications
+├── sw.js           ← Notification handler
+└── icon.png        ← App icon
+
 ```
 
 ---
