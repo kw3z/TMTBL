@@ -1,4 +1,4 @@
-# 📅 TMTBL (Pre-release v3.2) — Your All-in-One Planner
+# 📅 TMTBL — Your All-in-One Planner
 ### Website: https://tmtbl.vercel.app
 
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20Windows-blueviolet?logo=googlechrome)
