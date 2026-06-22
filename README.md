@@ -50,11 +50,11 @@ Most planners make you choose between a calendar, a to-do list, or a schedule. T
 
 ---
 
-~~### 🔔 Smart Notifications~~ (broken)
+### ~~🔔 Smart Notifications~~ (broken)
 
-- 📚 **Homework Reminders** — Daily task alerts so nothing slips through 
-- ⏱ **Activity Transition Alerts** — Automatic notifications when an activity starts or ends, with duration info included
-- 🌐 **Browser Notification Support** — Works even when TMTBL is running in a background tab
+~~- 📚 **Homework Reminders** — Daily task alerts so nothing slips through~~
+~~- ⏱ **Activity Transition Alerts** — Automatic notifications when an activity starts or ends, with duration info included~~
+~~- 🌐 **Browser Notification Support** — Works even when TMTBL is running in a background tab~~
 
 ---
 
